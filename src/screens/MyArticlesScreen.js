@@ -131,7 +131,9 @@ import {
       alignItems: "center",
       borderRadius: 5,
       width: 300,
-      marginLeft: 500,
+      marginLeft: "auto",
+      marginRight: "auto",
+      marginBottom: hp(2),
     },
     addButtonText: {
       color: "#fff",
@@ -140,7 +142,6 @@ import {
     },
     scrollContainer: {
       paddingBottom: hp(2),
-      height: "auto",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
@@ -153,63 +154,64 @@ import {
       color: "#6B7280",
       marginTop: hp(5),
     },
-  articleCard: {
-    width: 400, // Make article card width more compact
-    height: 300, // Adjust the height of the card to fit content
-    backgroundColor: "#fff",
-    padding: wp(3),
-    borderRadius: 8,
-    marginBottom: hp(2),
-    shadowColor: "#000",
-    shadowOpacity: 0.1,
-    shadowRadius: 4,
-    shadowOffset: { width: 0, height: 2 },
-    elevation: 3, // for Android shadow
-  },
-  articleImage: {
-    width: 300, // Set width for article image
-    height: 150, // Adjust height of the image
-    borderRadius: 8,
-    marginBottom: hp(1),
-  },
-  articleTitle: {
-    fontSize: hp(2),
-    fontWeight: "600",
-    color: "#111827",
-    marginBottom: hp(0.5),
-  },
-  articleDescription: {
-    fontSize: hp(1.8),
-    color: "#6B7280",
-    marginBottom: hp(1.5),
-  },
-  actionButtonsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: hp(1),
-  },
-  editButton: {
-    backgroundColor: "#34D399",
-    padding: wp(.5),
-    borderRadius: 5,
-    width: 100, // Adjust width of buttons to be more compact
-    alignItems: "center",
-  },
-  editButtonText: {
-    color: "#fff",
-    fontWeight: "600",
-    fontSize: hp(1.8),
-  },
-  deleteButton: {
-    backgroundColor: "#EF4444",
-    padding: wp(.5),
-    borderRadius: 5,
-    width: 100, // Adjust width of buttons to be more compact
-    alignItems: "center",
-  },
-  deleteButtonText: {
-    color: "#fff",
-    fontWeight: "600",
-    fontSize: hp(1.8),
-  },
-});
+    articleCard: {
+      width: 400,
+      height: 300,
+      backgroundColor: "#fff",
+      padding: wp(3),
+      borderRadius: 8,
+      marginBottom: hp(2),
+      shadowColor: "#000",
+      shadowOpacity: 0.1,
+      shadowRadius: 4,
+      shadowOffset: { width: 0, height: 2 },
+      elevation: 3, // for Android shadow
+    },
+    articleImage: {
+      width: 300,
+      height: 150,
+      borderRadius: 8,
+      marginBottom: hp(1),
+    },
+    articleTitle: {
+      fontSize: hp(2),
+      fontWeight: "600",
+      color: "#111827",
+      marginBottom: hp(0.5),
+    },
+    articleDescription: {
+      fontSize: hp(1.8),
+      color: "#6B7280",
+      marginBottom: hp(1.5),
+    },
+    actionButtonsContainer: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      marginTop: hp(1),
+    },
+    editButton: {
+      backgroundColor: "#34D399",
+      padding: wp(0.5),
+      borderRadius: 5,
+      width: 100,
+      alignItems: "center",
+    },
+    editButtonText: {
+      color: "#fff",
+      fontWeight: "600",
+      fontSize: hp(1.8),
+    },
+    deleteButton: {
+      backgroundColor: "#EF4444",
+      padding: wp(0.5),
+      borderRadius: 5,
+      width: 100,
+      alignItems: "center",
+    },
+    deleteButtonText: {
+      color: "#fff",
+      fontWeight: "600",
+      fontSize: hp(1.8),
+    },
+  });
+  
